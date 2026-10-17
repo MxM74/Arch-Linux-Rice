@@ -1,0 +1,24 @@
+{
+  "logo": {
+  "type": "kitty",
+  "source": "themes/arasaka/fastfetch/arasaka-logo-crimson.png",
+  "width": 52,
+  "height": 16,
+  "padding": {
+    "right": 4
+  }
+},
+  "display": {
+    "separator": ": ",
+    "color": {
+  "keys": "#E0E0E0",
+  "title": "#E0E0E0"
+}
+  },
+  "modules": [
+    "title", "separator", "os", "host", "kernel",
+    "uptime", "packages", "shell", "display",
+    "wm", "terminal", "cpu", "gpu", "memory",
+    "disk", "locale"
+  ]
+}

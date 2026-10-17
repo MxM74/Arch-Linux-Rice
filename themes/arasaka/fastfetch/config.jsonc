@@ -1,0 +1,22 @@
+{
+  "logo": {
+    "type": "builtin",
+    "source": "arch",
+    "padding": {
+      "right": 4
+    }
+  },
+  "display": {
+    "separator": ": ",
+    "color": {
+      "keys": "#00E5D4",
+      "title": "#00E5D4"
+    }
+  },
+  "modules": [
+    "title", "separator", "os", "host", "kernel",
+    "uptime", "packages", "shell", "display",
+    "wm", "terminal", "cpu", "gpu", "memory",
+    "disk", "locale"
+  ]
+}
